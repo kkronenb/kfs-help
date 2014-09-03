@@ -1,0 +1,1 @@
+d2hStoreMenuItems("TX__1489", [["WordDocuments/foreigndrafttab.htm", "right", "Foreign Draft Tab"],["WordDocuments/foreigndrafttab1.htm", "right", "Foreign Draft Tab"]]);

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Business Rules</title>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 Core.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS Core_Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -19,8 +19,8 @@ var _needIndentation = false;
 
 <script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
 
-<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
-<meta name="D2HTheme" content="(Default) v.153" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
 </head>
 <body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
 <script language="javascript" type="text/javascript">
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="beginningbalances.htm"></a><a id="D2HNextAnchor" href="batchassurancereport.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="processoverview6.htm"></a><a id="D2HNextAnchor" href="routing5.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -87,48 +87,32 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 </div>
 <div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
-&gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
-Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="yearendprocesses.htm">Year-End 
-Processes</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="beginningbalances.htm">Beginning 
-Balances</a></div>
-<h5>Business Rules</h5>
-<p class="MsoBodyText">For establishing beginning balances:</p>
-<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
-a pre-established list of balance types, actual and <a id="popup_599003" onclick="return d2hpopup(event, this.href)" href="gloss_close.htm">close</a> 
-nominal balances are eligible for beginning balances. The balance types are 
-defined in the <a id="popup_599001" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a> 
-BALANCE_TYPES_TO_ROLL_FORWARD_FOR_BALANCE_SHEET.</p>
-<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      
-</span>Object types representing assets, liabilities, and <a id="popup_599005" onclick="return d2hpopup(event, this.href)" href="gloss_fund.htm">fund</a> 
-balance defined in the Systems Options table are eligible for beginning 
-balances.</p>
-<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-annual balance amount plus the <a id="popup_598997" onclick="return d2hpopup(event, this.href)" href="gloss_contractsandgrants.htm">Contracts and Grants</a> balance amount plus 
-the beginning balance amount that is not zero are eligible. (Annual Balance + <a id="popup_599006" onclick="return d2hpopup(event, this.href)" href="gloss_cg.htm">CG</a> Balance Amount + Beginning Balance &lt;&gt; 0)</p>
-<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the <a id="popup_599004" onclick="return d2hpopup(event, this.href)" href="gloss_unit.htm">unit</a> of work qualifies for establishing beginning 
-balances, a beginning balance entry is created as a GL pending entry.</p>
-<p class="MsoBodyText">For establishing cumulative balances:</p>
-<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
-a pre-established list of balance types, actual and current budget balances are 
-eligible for cumulative beginning balances. The balance types are defined in the 
-parameter BALANCE_TYPES_TO_ROLL_FORWARD_FOR_INCOME_EXPENSE?</p>
-<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
-a pre-established list of object types, those representing expense and revenue 
-are eligible for cumulative beginning balances.</p>
-<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>From 
-a pre-established list of fund groups or sub-fund groups, balances related to CG 
-accounts are eligible to be carried forward into the new <a id="popup_598999" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal 
-year</a>.</p>
-<p class="Noteindented"><img title="pencil-small" alt="pencil-small" src="../ImagesExt/image31_1.png" />       
-Institutions have the option to set CG as a <a id="popup_599000" onclick="return d2hpopup(event, this.href)" href="gloss_fundgroup.htm">fund 
-group</a> or <a id="popup_598998" onclick="return d2hpopup(event, this.href)" href="gloss_subfundgroup.htm">sub-fund group</a> using the FUND_<a id="popup_599002" onclick="return d2hpopup(event, this.href)" href="gloss_group.htm">GROUP</a>_DENOTES_CG_IND parameter. </p>
-<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>The 
-annual balance amount plus the Contracts and Grants balance amount that is not 
-zero are eligible.</p>
-<p style="TEXT-INDENT: -18.75pt; tab-stops: 36.0pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">•</span>      </span>If 
-the unit of work qualifies for establishing cumulative balances, a cumulative 
-beginning balance entry is created as the GL pending entry.</p>
+&gt; </span><a class="d2h_breadcrumbsNormal" href="chartofaccountscoa.htm">Chart 
+of Accounts (COA)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="standardcoaedocs.htm">Standard COA 
+E-Docs</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="objectcode.htm">Object Code</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="processoverview6.htm">Process Overview</a></div>
+<h6>Business Rules</h6>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">�</span>����� </span>If 
+the <strong>Reports to <a id="popup_23394" onclick="return d2hpopup(event, this.href)" href="gloss_chartcode.htm">Chart 
+Code</a></strong> value is not the highest <a id="popup_23395" onclick="return d2hpopup(event, this.href)" href="gloss_chart.htm">chart</a> 
+level, the reports to <a id="popup_23392" onclick="return d2hpopup(event, this.href)" href="gloss_objectcode.htm">object 
+code</a>, <a id="popup_23393" onclick="return d2hpopup(event, this.href)" href="gloss_fiscalyear.htm">fiscal year</a>, and chart code combination must 
+exist in the Object Code Table.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">�</span>����� </span>If 
+the <strong>Reports to Chart Code</strong> value is at the highest level, then 
+the object code must report to itself as an additional rule.</p>
+<p style="TEXT-INDENT: -18.75pt" class="C1HBullet"><span style="FONT-FAMILY: Symbol"><span style="FONT-FAMILY: Verdana">�</span>����� </span>If a 
+<strong>Next Year Object Code</strong> value is entered, then the current fiscal 
+year, chart code, and next year object code combination must exist in the Object 
+Code Table.</p>
+<p class="Note"><img title="Description: lightbolb-small" border="0" alt="Description: lightbolb-small" src="../ImagesExt/image29_10.png" />�� <strong>Institutional Reporting: 
+</strong>The <a id="popup_23396" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a> provides for various fields available for 
+institutional reporting. You can, for example, define a top level chart that 
+consolidates activity for reporting purpose. After the top level chart is 
+defined, the Statement of Net Assets and Statement of Revenues, Expenses and 
+Changes in Net Assets can be designed, using 'Reports To' chart and object code 
+and the sub-totals by the object code levels and consolidations on the top 
+chart. Or, you may design <a id="popup_23389" onclick="return d2hpopup(event, this.href)" href="gloss_responsibilitycenter.htm">responsibility center</a> reports using 
+the <a id="popup_23391" onclick="return d2hpopup(event, this.href)" href="gloss_organization.htm">organization</a> roll-up of accounts. For more 
+information about the capabilities of the organization within the <a id="popup_23390" onclick="return d2hpopup(event, this.href)" href="gloss_chartofaccounts.htm">Chart of Accounts</a>, refer to <a href="organization.htm">Organization</a> and <a href="organizationtype.htm">Organization Type</a>. </p>
 <p class="RelatedHead">More:</p><span id="related-topics">
-<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="batchassurancereport.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Batch Assurance 
-Reports</a></p></span></div></div></body></html>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="routing5.htm"><img border="0" alt="" align="absMiddle" src="../button.gif" />Routing</a></p></span></div></div></body></html>

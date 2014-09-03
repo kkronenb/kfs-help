@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <html><head><title>Pre-Scrubber Function</title>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS 5_0_2 Core.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/KFS Core_Source.css" />
 <script type="text/javascript">
 //<![CDATA[
 
@@ -19,8 +19,8 @@ var _needIndentation = false;
 
 <script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
 
-<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.1.0.688" />
-<meta name="D2HTheme" content="(Default) v.153" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2012.3.0.755" />
+<meta name="D2HTheme" content="(Default) v.155" />
 </head>
 <body style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #535353; MARGIN: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px" onload="d2hOnLoadToolbar(event);" relpart="../">
 <script language="javascript" type="text/javascript">
@@ -74,7 +74,7 @@ if (typeof d2hLoadNavUrls != "undefined")
 <div style="PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: auto; PADDING-TOP: 0px" id="D2HTopicOuterBody" class="d2h_outer_topic">
 <div id="nsbanner" class="d2hNavigatorTopic">
 <div style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id="TitleRow" class="d2h_main_titlerow">
-<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="continuationaccountf.htm"></a><a id="D2HNextAnchor" href="glcorrectionprocess.htm"></a></div></div>
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="continuationaccountforexpiredaccount.htm"></a><a id="D2HNextAnchor" href="glcorrectionprocess.htm"></a></div></div>
 <script language="javascript" type="text/javascript">
 //<![CDATA[
 
@@ -88,13 +88,14 @@ if (typeof d2hProcessTopicNavForCSH != "undefined")
 <div style="PADDING-BOTTOM: 10px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; HEIGHT: 100%; PADDING-TOP: 5px" id="nstext" class="d2h_main_nstext" valign="bottom">
 <div id="d2h_breadcrumbs" class="d2h_breadcrumbs"><a class="d2h_breadcrumbsNormal" href="coremodules.htm">Core Modules</a><span class="d2h_breadcrumbsLinkSeparator"> 
 &gt; </span><a class="d2h_breadcrumbsNormal" href="generalledgergl1.htm">General 
-Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidatio.htm">Transaction Validation ('Scrubber')</a></div>
+Ledger (GL)</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="glprocess.htm">GL Process</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="transactionvalidationscrubber.htm">Transaction Validation 
+('Scrubber')</a></div>
 <h5>Pre-Scrubber Function</h5>
-<p class="MsoBodyText">The 'Scrubber' also includes a pre-<a id="popup_598521" onclick="return d2hpopup(event, this.href)" href="gloss_scrubber.htm">scrubber</a> function that can be used to <a id="popup_598520" onclick="return d2hpopup(event, this.href)" href="gloss_complete.htm">complete</a> <a id="popup_598522" onclick="return d2hpopup(event, this.href)" href="gloss_chart.htm">Chart</a> of 
-<a id="popup_598519" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">Account</a> code values for entries that do not contain 
+<p class="MsoBodyText">The 'Scrubber' also includes a pre-<a id="popup_22024" onclick="return d2hpopup(event, this.href)" href="gloss_scrubber.htm">scrubber</a> function that can be used to <a id="popup_22022" onclick="return d2hpopup(event, this.href)" href="gloss_complete.htm">complete</a> <a id="popup_22025" onclick="return d2hpopup(event, this.href)" href="gloss_chart.htm">Chart</a> of 
+<a id="popup_22023" onclick="return d2hpopup(event, this.href)" href="gloss_account.htm">Account</a> code values for entries that do not contain 
 them. This function will be used only if your institution has decided not to 
-allow the same account number to be used on multiple Charts of Accounts (the <a id="popup_598523" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a>-SYS ACCOUNTS_CAN_CROSS_CHARTS_IND <a id="popup_598518" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a> must be set to 'N'). In this case a 
-special step will complete the <a id="popup_598517" onclick="return d2hpopup(event, this.href)" href="gloss_chartofaccounts.htm">Chart of Accounts</a> code on incoming 
+allow the same account number to be used on multiple Charts of Accounts (the <a id="popup_22026" onclick="return d2hpopup(event, this.href)" href="gloss_kfs.htm">KFS</a>-SYS ACCOUNTS_CAN_CROSS_CHARTS_IND <a id="popup_22021" onclick="return d2hpopup(event, this.href)" href="gloss_parameter.htm">parameter</a> must be set to 'N'). In this case a 
+special step will complete the <a id="popup_22020" onclick="return d2hpopup(event, this.href)" href="gloss_chartofaccounts.htm">Chart of Accounts</a> code on incoming 
 transactions if it is blank. Note that the pre-scrubber will not correct invalid 
 chart/account combinations (these will become 'Scrubber' errors) and will not 
 complete the Chart of Accounts field if the supplied account number is 

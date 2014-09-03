@@ -1,1 +1,0 @@
-d2hStoreMenuItems("TX__70357", [["WordDocuments/glcorrectionprocess.htm", "right", "GL Correction Process"],["WordDocuments/glcorrectionprocessg.htm", "right", "GL Correction Process (GLCP)"]]);
