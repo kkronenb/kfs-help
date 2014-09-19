@@ -28,7 +28,7 @@
     <version>5.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>
-        The Kuali Financial System help module contains help files for the Kuali Coeus application.
+        The Kuali Financial System help module contains help files for the Kuali Financial System application.
     </description>
     <url>http://${kuali.site.hostname}/kfs/${project.artifactId}/${project.version}</url>
     <inceptionYear>2014</inceptionYear>
